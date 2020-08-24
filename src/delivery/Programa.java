@@ -50,10 +50,11 @@ public class Programa {
 					System.out.println("Por favor escolha entre 1 a 10 e caso queria finalizar escolha 0");
 					escolhaIngredientes = sc.nextInt();
 				}
-					guardaIngrediente += escolhaIngredientes;
-					total.add(escolhaIngredientes);
+				
+				guardaIngrediente += escolhaIngredientes;
+				total.add(escolhaIngredientes);
 					
-			System.out.println("Voce selecionou: "+ingredientes[escolhaIngredientes]);
+				System.out.println("Voce selecionou: "+ingredientes[escolhaIngredientes]);
 			
 				if(escolhaIngredientes == 0 || i>=9) {
 					System.out.println("Pedido finalizado, Qual a distancia ate o restaurante?");
@@ -99,8 +100,5 @@ public class Programa {
 			System.out.println(bolo.calcularPreco(distancia));
 				
 		}
-		
-		
 	}
-
 }

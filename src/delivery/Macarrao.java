@@ -14,4 +14,6 @@ public class Macarrao extends Massa{
 		return "Deu o total de:R$"+preco+" Reais e vai levar "+preparo+ " minutos para chegar";
 		
 	}
+
+
 }
